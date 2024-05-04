@@ -1,0 +1,99 @@
+/* Images */
+.image-sizeDesign {
+    display: flex;  /* make display flex so pictures will be even */
+    
+}
+
+.image-sizeDesign img {
+    width: 700px; /*  700 pixels wide */
+    height: auto; /* makes it more even */
+    margin-right: 120px; /* space them out  */
+}
+
+
+
+
+nav ul {
+    text-align: center;  /* make it centered */
+    list-style-type: none; /* get rid of the circles */
+    display: grid; /* make a grid  */
+    grid-template-columns: 1200px 100px; /* this design is to my liking */
+    grid-gap: 10px; /* spacing from top to bottom */
+}
+@font-face {
+    font-family: 'MyCustomFont2'; /* changed font for headers  */
+    src: url('fonts/Vampire Wars.ttf') format('truetype'),  
+        
+
+    
+}
+
+
+/* Header */
+header {
+    background-color: #333; /*  color for headers */
+    color: #fff;
+    padding: 10px;
+    text-align: center; /*  alignment and other stuff nothing different from the other css file */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+/* Footer */
+footer {
+    background-color: #333;  /* footer alignment and color changing and spacing */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+ 
+}
+
+
+
+
+/* Body and Background */
+body {
+    font-family: 'MyCustomFont2' ;  /* same stuff as earlier for body of html file */
+    margin: 0;
+    padding: 0;
+    background-color: #ff6e6ede;
+     
+}
+
+/* Main Content */
+main {
+    padding: 200px;   /* spacing for the paragraphs and header2  */
+  
+}
+
+section {
+    margin-bottom: 100px;
+    background-color: #363636; /* colors, and spacing for section part of html file */
+    padding: 20px;
+}
+
+/* 
+    Media query for screens with a minimum width of 768 pixels.
+    Changes the layout of the main content when the screen width meets the specified condition.
+*/
+@media screen and (min-width: 768px) {
+    /* 
+        Adjust the flex direction of the main element to row.
+    */
+    main {
+        flex-direction: row;
+    }
+    
+    /* 
+        Set the flex property to 1.
+        Add a margin to the right side of sections to create space between them.
+    */
+    section {
+        flex: 1;
+        margin-right: 20px;
+    }
+}

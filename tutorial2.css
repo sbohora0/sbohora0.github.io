@@ -1,0 +1,48 @@
+
+/* Header */
+header {
+    background-color: #333; /* change color of bg  */
+    color: #fff; /* color of text for header */
+    padding: 20px; /* spacing  */
+}
+
+h1 {
+    margin: 0; /* this is here to make the header where I need it to be other wise it looks bad  */
+}
+
+h2 {
+   color: #d8e0ff /* color of header 2   */
+}
+
+
+
+nav ul li a {
+    text-decoration: overline; /* looks funny so I added it in  */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* when mouse hovers the line goes from top to bottom  */
+}
+
+
+@font-face {
+    font-family: 'MyCustomFont'; /* added a font I have installed in my computer */
+    src: url('fonts/LEMONMILK-Medium.otf') format('truetype'),  /* im not sure if this will work when I turn in the assignment */
+        
+}
+
+p {   
+    font-family: 'MyCustomFont'; /* added font into p text  */
+    line-height: 3; /* spacing of paragraph lines  */
+    color: #ffffff /* made color white  */
+    
+}
+
+
+
+a[target="_blank"] { 
+    color: #d8e0ff; /* this is the color of the lists on the tutorial1 html file */
+}
+
+
+
